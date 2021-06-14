@@ -1,1 +1,18 @@
+/* Regler for alle billeder generelt */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
+/* Placering af footer og header rigtigt på alle sider */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 0;
+}
