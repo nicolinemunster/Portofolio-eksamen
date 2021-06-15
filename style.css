@@ -147,6 +147,34 @@ a:hover {
 
 /* //--fuldskærm--// */
 @media (min-width: 960px) {
+
+#projekter .box{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+gap 10px;
+ }
+
+ .avokado {
+   grid-column: span 2;
+grid-row: span 2;
+   }
+
+   .krabbe {
+   grid-column: span 2;
+grid-row: span 2;
+   }
+
+   .juice {
+   grid-column: span 2;
+grid-row: span 2;
+   }
+
+   .bacon {
+   grid-column: span 2;
+grid-row: span 2;
+   }
+
   /*Header og footer*/
   header {
     display: flex;
