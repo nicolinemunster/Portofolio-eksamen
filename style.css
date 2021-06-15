@@ -19,11 +19,55 @@ body {
   background-color: #f5f5f5;
 }
 
+/*Header og footer (mobile)*/
+
+header {
+  font-size: 1em;
+  font-family: jaf-domus-titling-web, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  padding: 1.7vw;
+  background-color: #ff9ec1;
+  display: grid;
+}
+
+.menu_right a {
+  display: grid;
+  margin-top: 3vw;
+  text-align: center;
+}
+.menu_left a {
+  font-weight: 1000;
+  text-align: center;
+}
+
+#footer {
+  font-size: 1em;
+  font-family: jaf-domus-titling-web, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  background-color: #ff9ec1;
+  padding: 1.7rem;
+}
+
+header a:hover {
+  text-decoration-line: underline;
+  color: whitesmoke;
+}
+#footer a:hover {
+  text-decoration-line: underline;
+  color: whitesmoke;
+}
+
 /* Style af tekst/fonts på siderne */
 
 h1 {
-  font-size: 1.5em;
-  font-family: marydale;
+  font-size: 2em;
+  font-family: jaf-domus-titling-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   text-align: center;
 }
 
@@ -36,9 +80,21 @@ h2 {
 h3 {
   font-size: 1em;
   font-family: jaf-domus-titling-web, sans-serif;
-  font-weight: 300;
+  font-weight: bold;
   font-style: normal;
   text-align: center;
+  color: #7a6b67;
+}
+
+p,
+a {
+  color: #7a6b67;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+  color: #ff9ec1;
 }
 
 /* //--mobile-version--// */
@@ -47,7 +103,7 @@ h3 {
 
 .pil {
   width: 7rem;
-  left: 10rem;
+  left: 12.5rem;
   margin-top: 12rem;
   margin-bottom: 13rem;
   position: relative;
@@ -55,39 +111,71 @@ h3 {
 
 .avokado {
   position: relative;
-  left: 28vw;
-  width: 12rem;
+  left: 35vw;
+  width: 8.5rem;
   margin-top: 3rem;
 }
 
 .krabbe {
   position: relative;
-  left: 28vw;
+  left: 30vw;
   width: 12rem;
   margin-top: 3rem;
 }
 
 .bacon {
   position: relative;
-  left: 28vw;
+  left: 30vw;
   width: 12rem;
   margin-top: 3rem;
 }
 
 .juice {
   position: relative;
-  left: 33vw;
-  width: 9rem;
+  left: 34vw;
+  width: 8rem;
   margin-top: 3rem;
 }
 
 .mig {
   position: relative;
   left: 1 vw;
-  width: 28rem;
-  margin-top: 3rem;
+  width: 32rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 
 /* //--fuldskærm--// */
-@media (min-width: 1080px) {
+@media (min-width: 960px) {
+  /*Header og footer*/
+  header {
+    display: flex;
+    background-color: #ff9ec1;
+  }
+
+  header nav ul {
+    display: flex;
+    overflow-x: auto;
+    margin: 1;
+    padding-top: 20px;
+    justify-items: center;
+  }
+
+  ul {
+    list-style: none;
+    gap: 3rem;
+  }
+  .menu_right {
+    margin-top: 15;
+  }
+  .menu_left a {
+    color: whitesmoke;
+    margin-top: 1;
+    display: inline;
+  }
+
+  #footer {
+    justify-content: space-between;
+    justify-content: center;
+  }
 }
