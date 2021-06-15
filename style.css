@@ -134,10 +134,58 @@ a:hover {
   margin-bottom: 0rem;
 }
 
-/* //--responsive-billeder-// */
-
 /* //--fuldskærm--// */
 @media (min-width: 960px) {
+  /* //--RESPONSIVE BILLEDER--// */
+  .first_section_wrapper_responsive {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .col_responsive_text {
+    grid-column: 2/2;
+    grid-row: 1/2;
+  }
+  .col_responsive_img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .second_section_wrapper_responsive {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .col_responsive_text2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .col_responsive_img2 {
+    grid-column: 2/2;
+    grid-row: 1/2;
+  }
+  .third_section_wrapper_responsive {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .col_responsive_text3 {
+    grid-column: 2/2;
+    grid-row: 1/2;
+  }
+  .col_responsive_img3 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .link {
+    background-color: #59863c;
+    place-items: center;
+    margin: 1rem;
+    max-width: 700px;
+    border-radius: 25px;
+    padding: 1.5rem;
+    border-width: 0.001rem;
+  }
+
   /* //--FORSIDE-billeder--// */
   #projekter .box {
     display: grid;
