@@ -4,12 +4,10 @@ img {
   height: auto;
   display: block;
 }
-
 /* Placering af footer og header rigtigt på alle sider */
 html {
   height: 100%;
 }
-
 body {
   min-height: 100%;
   display: grid;
@@ -21,7 +19,6 @@ body {
 }
 
 /*Header og footer (mobile)*/
-
 header {
   display: grid;
   justify-items: center;
@@ -65,7 +62,6 @@ header a:hover {
 }
 
 /* Style af tekst/fonts på siderne */
-
 h1 {
   font-size: 2em;
   font-family: jaf-domus-titling-web, sans-serif;
@@ -98,8 +94,7 @@ a:hover {
 
 /* //--mobile-version--// */
 
-/* //--Størrelse/styling img--// */
-
+/* //--FORSIDE-billeder-// */
 .pil {
   width: 7rem;
   left: 12.5rem;
@@ -139,8 +134,11 @@ a:hover {
   margin-bottom: 0rem;
 }
 
+/* //--responsive-billeder-// */
+
 /* //--fuldskærm--// */
 @media (min-width: 960px) {
+  /* //--FORSIDE-billeder--// */
   #projekter .box {
     display: grid;
     display: flex;
@@ -210,7 +208,6 @@ a:hover {
     margin-bottom: 1rem;
     font-size: 3rem;
   }
-
   #footer {
     justify-content: space-between;
     justify-content: center;
