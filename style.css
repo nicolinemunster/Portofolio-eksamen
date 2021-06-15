@@ -16,6 +16,7 @@ body {
   grid-template-rows: auto 1fr auto;
   margin: 15;
   place-items: center;
+  background-color: #f5f5f5;
 }
 
 /* Style af tekst/fonts på siderne */
@@ -77,6 +78,13 @@ h3 {
   position: relative;
   left: 33vw;
   width: 9rem;
+  margin-top: 3rem;
+}
+
+.mig {
+  position: relative;
+  left: 1 vw;
+  width: 28rem;
   margin-top: 3rem;
 }
 
