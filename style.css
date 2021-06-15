@@ -14,5 +14,72 @@ body {
   min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  margin: 0;
+  margin: 15;
+  place-items: center;
+}
+
+/* Style af tekst/fonts på siderne */
+
+h1 {
+  font-size: 1.5em;
+  font-family: marydale;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1em;
+  font-family: marydale;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: jaf-domus-titling-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+
+/* //--mobile-version--// */
+
+/* //--Størrelse/styling img--// */
+
+.pil {
+  width: 7rem;
+  left: 10rem;
+  margin-top: 12rem;
+  margin-bottom: 13rem;
+  position: relative;
+}
+
+.avokado {
+  position: relative;
+  left: 28vw;
+  width: 12rem;
+  margin-top: 3rem;
+}
+
+.krabbe {
+  position: relative;
+  left: 28vw;
+  width: 12rem;
+  margin-top: 3rem;
+}
+
+.bacon {
+  position: relative;
+  left: 28vw;
+  width: 12rem;
+  margin-top: 3rem;
+}
+
+.juice {
+  position: relative;
+  left: 33vw;
+  width: 9rem;
+  margin-top: 3rem;
+}
+
+/* //--fuldskærm--// */
+@media (min-width: 1080px) {
 }
