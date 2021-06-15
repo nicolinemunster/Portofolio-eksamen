@@ -17,6 +17,7 @@ body {
   margin: 15;
   place-items: center;
   background-color: #f5f5f5;
+  hyphens: auto;
 }
 
 /*Header og footer (mobile)*/
@@ -147,33 +148,38 @@ a:hover {
 
 /* //--fuldskærm--// */
 @media (min-width: 960px) {
-
-#projekter .box{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr;
-gap 10px;
- }
-
- .avokado {
-   grid-column: span 2;
-grid-row: span 2;
-   }
-
-   .krabbe {
-   grid-column: span 2;
-grid-row: span 2;
-   }
-
-   .juice {
-   grid-column: span 2;
-grid-row: span 2;
-   }
-
-   .bacon {
-   grid-column: span 2;
-grid-row: span 2;
-   }
+  #projekter .box {
+    display: grid;
+    display: flex;
+    position: relative;
+  }
+  .pil {
+    width: 15rem;
+    left: 36rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    position: relative;
+  }
+  .avokado {
+    left: 10rem;
+  }
+  .krabbe {
+    left: 19rem;
+  }
+  .bacon {
+    left: 26rem;
+  }
+  .juice {
+    left: 33rem;
+    margin-top: 0rem;
+  }
+  .mig {
+    position: relative;
+    left: 18rem;
+    width: 55rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
 
   /*Header og footer*/
   header {
