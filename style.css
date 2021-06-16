@@ -179,11 +179,24 @@ a:hover {
   .link {
     background-color: #59863c;
     place-items: center;
-    margin: 1rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     max-width: 700px;
     border-radius: 25px;
-    padding: 1.5rem;
+    padding: 1rem;
+    padding-top: 0.3rem;
     border-width: 0.001rem;
+  }
+  .link a {
+    color: #ff9ec1;
+  }
+  .link a:hover {
+    color: whitesmoke;
+  }
+  .screen_responsive {
+    width: 25rem;
+    margin-left: 10rem;
   }
 
   /* //--FORSIDE-billeder--// */
