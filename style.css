@@ -391,6 +391,36 @@ a:hover {
     text-decoration: none;
   }
 
+  /* //--PROJEKTER-billeder--// */
+  #boxp {
+    display: flex;
+    position: relative;
+  }
+  .avokado_p {
+    left: -8rem;
+    position: relative;
+    margin-bottom: 4rem;
+  }
+  .krabbe_p {
+    left: -4rem;
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  .bacon_p {
+    left: -1rem;
+    width: 15rem;
+    position: relative;
+    margin-top: 4.3rem;
+    margin-bottom: 4rem;
+  }
+  .juice_p {
+    left: 7rem;
+    margin-top: 0rem;
+    position: relative;
+    margin-bottom: 4rem;
+  }
+
   /*Header og footer*/
   header {
     background-color: #ff9ec1;
