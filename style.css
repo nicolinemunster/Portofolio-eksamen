@@ -139,6 +139,22 @@ a:hover {
 
 /* //--fuldskærm--// */
 @media (min-width: 960px) {
+  /* //--UX--// */
+  .h1_ux_site h1 {
+    color: #d0776e;
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
+  }
+
+  .col_ux_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .col_ux_img1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
   /* //--RE-DESIGN--// */
   .h1_redesign_site h1 {
     color: #c06b66;
@@ -149,12 +165,10 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
   .second_section_wrapper_redesign {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
   .styletile_nyt {
     width: 40rem;
     left: 10rem;
@@ -163,17 +177,14 @@ a:hover {
     grid-column: 1/2;
     grid-row: 1/2;
   }
-
   .col_redesign_img3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
   .billedebehandling_text {
     grid-column: 1/1;
     grid-row: 1/2;
   }
-
   .billedebehandling {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -182,7 +193,6 @@ a:hover {
     grid-column: 3/3;
     grid-row: 1/2;
   }
-
   .col_redesign_img4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
