@@ -139,8 +139,6 @@ a:hover {
 
 /* //--fuldskærm--// */
 @media (min-width: 960px) {
-  /* //--OM MIG--// */
-
   /* //--UX--// */
   .h1_ux_site h1 {
     color: #d0776e;
@@ -280,6 +278,64 @@ a:hover {
   .screen_redesign {
     width: 25rem;
     margin-left: 9rem;
+  }
+  /* //--OM MIG--// */
+  .first_section_wrapper_om {
+    display: grid;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+  }
+  .uddannelse_om,
+  p {
+    text-align: center;
+  }
+  .col_om_img {
+    margin-left: 2rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 12rem;
+  }
+  .col_om_text {
+    grid-column: 2/2;
+    grid-row: 1/2;
+  }
+
+  .uddannelse {
+    background-color: #feda60;
+    place-items: center;
+    margin-left: 0.9rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    border-radius: 25px;
+    padding: 1rem;
+    padding-top: 0.3rem;
+    border-width: 0.001rem;
+  }
+  .uddannelse h2 {
+    color: whitesmoke;
+  }
+
+  .erhverserfaring {
+    background-color: #feda60;
+    place-items: center;
+    margin-left: 0.9rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    border-radius: 25px;
+    padding: 1rem;
+    padding-top: 0.3rem;
+    border-width: 0.001rem;
+  }
+  .erhverserfaring h2 {
+    color: whitesmoke;
+    font-weight: 900;
+  }
+  .erhverserfaring_om,
+  p {
+    text-align: center;
+    color: #7a6b67;
   }
 
   /* //--RESPONSIVE BILLEDER--// */
