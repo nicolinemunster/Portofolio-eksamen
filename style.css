@@ -137,6 +137,12 @@ a:hover {
 /* //--fuldskærm--// */
 @media (min-width: 960px) {
   /* //--RESPONSIVE BILLEDER--// */
+  .h1_responsive_site h1 {
+    color: #59863c;
+    font-size: 3rem;
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
+  }
   .first_section_wrapper_responsive {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -175,7 +181,6 @@ a:hover {
     grid-column: 1/2;
     grid-row: 1/2;
   }
-
   .link {
     background-color: #59863c;
     place-items: center;
