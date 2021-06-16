@@ -139,6 +139,8 @@ a:hover {
 
 /* //--fuldskærm--// */
 @media (min-width: 960px) {
+  /* //--OM MIG--// */
+
   /* //--UX--// */
   .h1_ux_site h1 {
     color: #d0776e;
@@ -245,7 +247,6 @@ a:hover {
     grid-column: 2/3;
     grid-row: 1/2;
   }
-
   .col_redesign_img5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -258,7 +259,6 @@ a:hover {
     grid-column: 2/2;
     grid-row: 1/2;
   }
-
   .link1 {
     background-color: #f2e098;
     place-items: center;
@@ -428,7 +428,6 @@ a:hover {
     padding-right: 23rem;
     justify-items: center;
   }
-
   header nav ul {
     display: flex;
     overflow-x: auto;
