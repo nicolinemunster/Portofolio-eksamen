@@ -316,6 +316,18 @@ a:hover {
     grid-column: 1/2;
     grid-row: 1/2;
   }
+  .first_section_wrapper_ani {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .col_ani_text0 {
+    grid-column: 2/2;
+    grid-row: 1/2;
+  }
+  .col_ani_img0 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
 
   /* //--OM MIG--// */
   .first_section_wrapper_om {
